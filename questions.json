@@ -1,0 +1,304 @@
+{
+  "subjects": [
+    {
+      "subject_id": 1,
+      "subject_name": "Mathematics",
+      "mcqs": [
+        {
+          "question_id": 1,
+          "question": "What is 5 + 3?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correct_answer": "8"
+        },
+        {
+          "question_id": 2,
+          "question": "Which shape has 4 equal sides?",
+          "options": [
+            "Circle",
+            "Triangle",
+            "Square",
+            "Rectangle"
+          ],
+          "correct_answer": "Square"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the next number in the sequence: 2, 4, 6, __?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correct_answer": "8"
+        },
+        {
+          "question_id": 4,
+          "question": "If you have 10 apples and eat 3, how many apples are left?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correct_answer": "7"
+        }
+      ]
+    },
+    {
+      "subject_id": 2,
+      "subject_name": "English",
+      "mcqs": [
+        {
+          "question_id": 1,
+          "question": "Which word is a noun?",
+          "options": [
+            "Run",
+            "Happy",
+            "Dog",
+            "Quickly"
+          ],
+          "correct_answer": "Dog"
+        },
+        {
+          "question_id": 2,
+          "question": "Which is a vowel?",
+          "options": [
+            "B",
+            "C",
+            "E",
+            "D"
+          ],
+          "correct_answer": "E"
+        },
+        {
+          "question_id": 3,
+          "question": "Which of these words is a verb?",
+          "options": [
+            "Jump",
+            "Tree",
+            "Beautiful",
+            "Quickly"
+          ],
+          "correct_answer": "Jump"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the opposite of 'big'?",
+          "options": [
+            "Small",
+            "Tall",
+            "Fat",
+            "Short"
+          ],
+          "correct_answer": "Small"
+        }
+      ]
+    },
+    {
+      "subject_id": 3,
+      "subject_name": "Science",
+      "mcqs": [
+        {
+          "question_id": 1,
+          "question": "What do plants need to grow?",
+          "options": [
+            "Water, Sunlight, Soil",
+            "Wind, Water, Fire",
+            "Milk, Air, Soil",
+            "Sunlight, Rain, Sand"
+          ],
+          "correct_answer": "Water, Sunlight, Soil"
+        },
+        {
+          "question_id": 2,
+          "question": "Which of these animals can fly?",
+          "options": [
+            "Dog",
+            "Cat",
+            "Bird",
+            "Fish"
+          ],
+          "correct_answer": "Bird"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the main source of energy for Earth?",
+          "options": [
+            "The Moon",
+            "The Sun",
+            "The Stars",
+            "The Ocean"
+          ],
+          "correct_answer": "The Sun"
+        },
+        {
+          "question_id": 4,
+          "question": "Which of these is a part of the human body?",
+          "options": [
+            "Leaf",
+            "Root",
+            "Heart",
+            "Trunk"
+          ],
+          "correct_answer": "Heart"
+        }
+      ]
+    },
+    {
+      "subject_id": 4,
+      "subject_name": "Geography",
+      "mcqs": [
+        {
+          "question_id": 1,
+          "question": "Which is the largest ocean on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+          ],
+          "correct_answer": "Pacific Ocean"
+        },
+        {
+          "question_id": 2,
+          "question": "Which direction does the sun rise from?",
+          "options": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "correct_answer": "East"
+        },
+        {
+          "question_id": 3,
+          "question": "Which is the coldest place on Earth?",
+          "options": [
+            "Africa",
+            "Antarctica",
+            "Australia",
+            "Asia"
+          ],
+          "correct_answer": "Antarctica"
+        },
+        {
+          "question_id": 4,
+          "question": "Which of these is a continent?",
+          "options": [
+            "Spain",
+            "Africa",
+            "New York",
+            "Himalayas"
+          ],
+          "correct_answer": "Africa"
+        }
+      ]
+    },
+    {
+      "subject_id": 5,
+      "subject_name": "History",
+      "mcqs": [
+        {
+          "question_id": 1,
+          "question": "Who was the first President of the United States?",
+          "options": [
+            "George Washington",
+            "Abraham Lincoln",
+            "Thomas Jefferson",
+            "Benjamin Franklin"
+          ],
+          "correct_answer": "George Washington"
+        },
+        {
+          "question_id": 2,
+          "question": "What did the ancient Egyptians build to bury their pharaohs?",
+          "options": [
+            "Temples",
+            "Tombs",
+            "Pyramids",
+            "Castles"
+          ],
+          "correct_answer": "Pyramids"
+        },
+        {
+          "question_id": 3,
+          "question": "Who discovered America in 1492?",
+          "options": [
+            "Christopher Columbus",
+            "Marco Polo",
+            "Vasco da Gama",
+            "Magellan"
+          ],
+          "correct_answer": "Christopher Columbus"
+        },
+        {
+          "question_id": 4,
+          "question": "What is the name of the ship that carried the Pilgrims to America?",
+          "options": [
+            "The Santa Maria",
+            "The Titanic",
+            "The Mayflower",
+            "The Queen Mary"
+          ],
+          "correct_answer": "The Mayflower"
+        }
+      ]
+    },
+    {
+      "subject_id": 6,
+      "subject_name": "Art",
+      "mcqs": [
+        {
+          "question_id": 1,
+          "question": "What color do you get when you mix red and blue?",
+          "options": [
+            "Green",
+            "Purple",
+            "Orange",
+            "Yellow"
+          ],
+          "correct_answer": "Purple"
+        },
+        {
+          "question_id": 2,
+          "question": "Which tool is used to paint?",
+          "options": [
+            "Paintbrush",
+            "Hammer",
+            "Screwdriver",
+            "Wrench"
+          ],
+          "correct_answer": "Paintbrush"
+        },
+        {
+          "question_id": 3,
+          "question": "What is the primary color of the sun?",
+          "options": [
+            "Blue",
+            "Green",
+            "Yellow",
+            "Purple"
+          ],
+          "correct_answer": "Yellow"
+        },
+        {
+          "question_id": 4,
+          "question": "Which of these is a famous painting?",
+          "options": [
+            "The Mona Lisa",
+            "The Great Wall",
+            "Eiffel Tower",
+            "Statue of Liberty"
+          ],
+          "correct_answer": "The Mona Lisa"
+        }
+      ]
+    }
+  ]
+}

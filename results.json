@@ -1,0 +1,24 @@
+{
+    "examresults": [
+        {
+            "studentname": "Aarav Kumar",
+            "resultscore": 85
+        },
+        {
+            "studentname": "Ishita Sharma",
+            "resultscore": 90
+        },
+        {
+            "studentname": "Vihaan Gupta",
+            "resultscore": 78
+        },
+        {
+            "studentname": "Diya Patel",
+            "resultscore": 88
+        },
+        {
+            "studentname": "Ananya Singh",
+            "resultscore": 92
+        }
+    ]
+}

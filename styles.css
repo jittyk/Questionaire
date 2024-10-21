@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #4682b4; /* Default color in case the image doesn't load */
+    color: white;
+    padding: 10px 0;
+    background-image: url('https://cdn.kekastatic.net/shared/assets/images/components/page-header/0.png'); /* Update this path */
+    background-size: cover; /* Ensure the image covers the area */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #0623a1, #53a9f5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    width: 100%;
+}
+
+.custom-btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-container {
+    margin-bottom: 20px;
+}
+
+.question-section {
+    display: none;
+    flex: 1; 
+}
+
+.result-section {
+    display: none; 
+}
+
+.student-item {
+    cursor: pointer; /* Change the cursor to pointer on hover */
+}
+
+#percentageText {
+    font-weight: bold;
+}

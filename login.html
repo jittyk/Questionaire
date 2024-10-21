@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa; 
+        }
+        .log-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .login-container {
+            text-align: center;
+            background-color: #aaa;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+			display: inline-block;
+            
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            background: linear-gradient(to right, #0623a1, #53a9f5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            
+            width: 100%;
+			
+            max-width: 400px; 
+            padding: 20px;
+            margin:59.5px;
+        }
+        input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input.valid {
+            border-color: green;
+        }
+        input.invalid {
+            border-color: red;
+        }
+        .submit {
+            background-color:white;
+            border: 1px solid #black ;
+            border-radius: 10%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header class="navbar navbar-expand-lg navbar-dark bg-primary" 
+        style="background-image: url('https://cdn.kekastatic.net/shared/assets/images/components/page-header/0.png'); 
+               background-size: cover; 
+               background-repeat: no-repeat; 
+               background-position: center;; color:black;">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+    <a class="navbar-brand">
+        <h2>⦑Q⦒</h2>
+    </a>
+    <div class="d-flex ms-auto align-items-center">
+        
+       <button class="homeButton btn btn-light" style="margin:10px" onclick="window.location.href='Project_Questionaire.html'">
+       <i class="fas fa-home"></i>
+        </button>
+    </div>
+</div>
+
+
+</header>
+   
+    <div class="log-container">
+        <div class="login-container">
+            <h1>Member Login</h1>
+            <form id="loginForm">
+                <label for="email">User ID:</label>
+                <input type="email" id="email" name="email" required >
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button class="submit" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-primary" 
+        style="background-image: url('https://cdn.kekastatic.net/shared/assets/images/components/page-header/0.png'); 
+               background-size: cover; 
+               background-repeat: no-repeat; 
+               background-position: center;color:black;">
+    <p style="text-align: center; color: white; padding: 10px;">©Questionnaire</p>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    const loginForm = document.getElementById('loginForm');
+
+    let credentials = [];
+
+    // Fetch credentials from the JSON file using XMLHttpRequest
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'credentials.json', true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) { 
+            if (xhr.status === 200) { 
+                try {
+                    credentials = JSON.parse(xhr.responseText); 
+                    console.log('Credentials loaded:', credentials); 
+                } catch (e) {
+                    console.error('Error parsing JSON:', e);
+                }
+            } else {
+                console.error('Error fetching credentials:', xhr.statusText);
+            }
+        }
+    };
+    xhr.send(); 
+
+    // Validate user ID when input changes
+    emailInput.addEventListener('input', function () {
+        validateUserId(this);
+    });
+
+    loginForm.addEventListener('submit', function (event) {
+        event.preventDefault();  // Prevent default form submission
+        
+        // Call validate and submit function without blocking further submissions
+        validateAndSubmitForm();
+    });
+
+    function validateUserId(input) {
+        const email = input.value.trim();
+        const isValid = credentials.some(credential => credential.email === email);
+
+        if (isValid) {
+            input.classList.add('valid');
+            input.classList.remove('invalid');
+        } else {
+            input.classList.remove('valid');
+            input.classList.add('invalid');
+        }
+    }
+
+    function validateAndSubmitForm() {
+        const email = emailInput.value.trim();
+        const password = passwordInput.value.trim();
+
+        console.log('Submitted Email:', email); 
+        console.log('Submitted Password:', password);
+
+        const user = credentials.find(credential => credential.email === email);
+
+        console.log('User found:', user); 
+
+        if (user && user.password === password) {
+            alert('Login successful');
+            window.location.href = 'result.html';
+        } else {
+            alert('Invalid credentials');
+        }
+    }
+});
+
+
+
+</script>
+     <script src="scripts.js"></script>
+    <script src="login.js" defer></script>
+</body>
+</html>

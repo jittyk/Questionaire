@@ -1,0 +1,348 @@
+{
+  "examResults": [
+    {
+      "id": 1,
+      "studentName": "Aarav Kumar",
+      "score": 85,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "New Delhi",
+          "correctAnswer": "New Delhi",
+          "isCorrect": true
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "4",
+          "correctAnswer": "4",
+          "isCorrect": true
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "Charles Dickens",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": false
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,792 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "studentName": "Meera Nair",
+      "score": 90,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "New Delhi",
+          "correctAnswer": "New Delhi",
+          "isCorrect": true
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "4",
+          "correctAnswer": "4",
+          "isCorrect": true
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "William Shakespeare",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "300,000 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "studentName": "Rohit Sharma",
+      "score": 75,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "Mumbai",
+          "correctAnswer": "New Delhi",
+          "isCorrect": false
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "5",
+          "correctAnswer": "4",
+          "isCorrect": false
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "William Shakespeare",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,792 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "studentName": "Diya Verma",
+      "score": 95,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "New Delhi",
+          "correctAnswer": "New Delhi",
+          "isCorrect": true
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "4",
+          "correctAnswer": "4",
+          "isCorrect": true
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "William Shakespeare",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,792 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "studentName": "Rohan Iyer",
+      "score": 60,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "Kolkata",
+          "correctAnswer": "New Delhi",
+          "isCorrect": false
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "4",
+          "correctAnswer": "4",
+          "isCorrect": true
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "Charles Dickens",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": false
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,000 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "studentName": "Sanjana Singh",
+      "score": 80,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "New Delhi",
+          "correctAnswer": "New Delhi",
+          "isCorrect": true
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "4",
+          "correctAnswer": "4",
+          "isCorrect": true
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "William Shakespeare",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,792 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "studentName": "Ananya Menon",
+      "score": 70,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "New Delhi",
+          "correctAnswer": "New Delhi",
+          "isCorrect": true
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "5",
+          "correctAnswer": "4",
+          "isCorrect": false
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "William Shakespeare",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,792 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "studentName": "Neha Jain",
+      "score": 88,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "questionId": 101,
+          "question": "What is the capital of India?",
+          "answerGiven": "New Delhi",
+          "correctAnswer": "New Delhi",
+          "isCorrect": true
+        },
+        {
+          "questionId": 102,
+          "question": "What is 2 + 2?",
+          "answerGiven": "4",
+          "correctAnswer": "4",
+          "isCorrect": true
+        },
+        {
+          "questionId": 103,
+          "question": "Who wrote 'Hamlet'?",
+          "answerGiven": "William Shakespeare",
+          "correctAnswer": "William Shakespeare",
+          "isCorrect": true
+        },
+        {
+          "questionId": 104,
+          "question": "What is the chemical symbol for water?",
+          "answerGiven": "H2O",
+          "correctAnswer": "H2O",
+          "isCorrect": true
+        },
+        {
+          "questionId": 105,
+          "question": "What is the speed of light?",
+          "answerGiven": "299,792 km/s",
+          "correctAnswer": "299,792 km/s",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
